@@ -18,7 +18,7 @@ export default function StakeToken() {
                 <Skeleton h={4} w={"100%"} isLoaded={!loadingStakeToken && !loadingTokenBalance}>
                     <Text>{tokenBalance?.displayValue}</Text>
                 </Skeleton>
-                <Image src="/COIN.png" alt="Descripción de la imagen" boxSize="40px" />
+                <Image src="/COIN.PNG" alt="Descripción de la imagen" boxSize="40px" />
             </Stack>
         </Card>
     )
